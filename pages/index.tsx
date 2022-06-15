@@ -1,6 +1,6 @@
-import { mockCatCardProps } from '../components/cards/cat/CatCard.mocks';
-import { CatCard, PrimaryLayout, SidebarLayout } from '../components/index';
-import styles from '../styles/Home.module.css';
+import { CatCard, PrimaryLayout, SidebarLayout } from '@/components';
+import { mockCatCardProps } from '@/components/cards/cat/CatCard.mocks';
+import styles from '@/styles/Home.module.css';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
